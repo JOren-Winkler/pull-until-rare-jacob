@@ -1,7 +1,7 @@
 /**
  * PullUntilRare
- * Name: ____________________
- * Date: ____________________
+ * Name: Jacb Oren-Winkler
+ * Date: 10/29/26
  *
  * AI Use Tier: 🤝 AI Co-Pilot
  * AI Attribution (required if you used AI): no AI help (all me!)
@@ -14,7 +14,7 @@ public class App
 
         // ===== TODO 1: Pull Until Rare =====
         // Pull until you get a rare item. Count how many pulls it took.
-        // Loop I'm using: ________  Why: ____________________
+        // Loop I'm using: while loop  Why: no idea when it'll end
 
         int pullsToRare = 0;
 
@@ -36,7 +36,7 @@ public class App
 
         // ===== TODO 2: Exactly 100 Pulls =====
         // Pull exactly 100 times. Count how many were rare.
-        // Loop I'm using: ________  Why: ____________________
+        // Loop I'm using: for loop  Why: I know exactly how many times I'm pulling (running the loop)
 
         int rareCount = 0;
 for (int pulls=0; pulls <=100; pulls++){
@@ -44,7 +44,7 @@ for (int pulls=0; pulls <=100; pulls++){
         rareCount++;
     }
 }
-        // write your loop here
+
 
 
         System.out.println("Part 2: In 100 pulls, you got " + rareCount + " rare items.");
